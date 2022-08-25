@@ -1,0 +1,3 @@
+npx sequelize-cli model:generate --name Tree --attributes tree:string,location:string,height_ft:float,ground_circumference_ft:float
+
+dotenv npx sequelize-cli db:migrate
